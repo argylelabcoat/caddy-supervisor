@@ -3,8 +3,8 @@ package httpplugin
 import (
 	"sync"
 
-	"github.com/lucaslorentz/caddy-supervisor/supervisor"
-	"github.com/mholt/caddy"
+	"github.com/argylelabcoat/caddy-supervisor/supervisor"
+	"github.com/caddyserver/caddy"
 )
 
 func init() {

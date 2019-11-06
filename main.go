@@ -2,12 +2,12 @@ package main
 
 import (
 	// Caddy
-	"github.com/mholt/caddy/caddy/caddymain"
+	"github.com/caddyserver/caddy/caddy/caddymain"
 
 	// Plugins
+	_ "github.com/argylelabcoat/caddy-supervisor/httpplugin"
+	_ "github.com/argylelabcoat/caddy-supervisor/servertype"
 	_ "github.com/hacdias/caddy-service"
-	_ "github.com/lucaslorentz/caddy-supervisor/httpplugin"
-	_ "github.com/lucaslorentz/caddy-supervisor/servertype"
 )
 
 func main() {

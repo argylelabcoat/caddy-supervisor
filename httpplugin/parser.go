@@ -1,8 +1,8 @@
 package httpplugin
 
 import (
-	"github.com/lucaslorentz/caddy-supervisor/supervisor"
-	"github.com/mholt/caddy"
+	"github.com/argylelabcoat/caddy-supervisor/supervisor"
+	"github.com/caddyserver/caddy"
 )
 
 func parseHTTPDirectives(c *caddy.Controller) ([]*supervisor.Options, error) {
